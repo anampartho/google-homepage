@@ -1,0 +1,60 @@
+:root {
+    font-size: 13px;
+    --body-color: #222;
+    --main-nav: rgba(0,0,0,0.87);
+    --base-margin: 15px;
+    --large-margin: 30px;
+}
+
+body {
+    font-family: arial,sans-serif;
+    font-size: 1rem;
+    color: var(--body-color);
+    line-height: 1.85;
+}
+
+/* Header */
+
+header {
+    padding: var(--base-margin) var(--large-margin);
+    text-align: right;
+}
+
+header nav {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+header nav a {
+    color: var(--main-nav);
+    text-decoration: none;
+    margin-right: var(--base-margin);
+}
+
+header nav a:last-child {
+    margin-right: 0
+}
+
+header nav a:hover {
+    text-decoration: underline;
+    opacity: .85;
+}
+
+.google-apps {
+    width: 30px;
+    height: 30px;
+    background-image: url('https://ssl.gstatic.com/gb/images/i1_1967ca6a.png');
+    background-size: 528px 68px;
+    background-position: -132px -38px;
+    display: inline-block;
+}
+
+.user {
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    background-image: url('https://randomuser.me/api/portraits/men/44.jpg');
+    background-size: 32px 32px;
+    border-radius: 50%;
+}
