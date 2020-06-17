@@ -223,3 +223,13 @@ footer nav a:active {
 footer nav a:last-child {
     margin-right: 0;
 }
+
+/* Responsive Styles */
+@media only screen and (max-width: 767px) {
+    .logo img {
+        max-width: 100%;
+    }
+    .footer-bottom {
+        flex-direction: column;
+    }
+}
