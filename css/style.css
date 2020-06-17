@@ -108,7 +108,7 @@ header nav a:hover {
     border: 1px solid #dfe1e5;
     padding: 10px 45px;
     height: 44px;
-    font-size: 16px;
+    font-size: 1.23rem;
     box-sizing: border-box;
 }
 
@@ -149,7 +149,7 @@ header nav a:hover {
     border-radius: 4px;
     color: #5F6368;
     font-family: arial,sans-serif;
-    font-size: 14px;
+    font-size: 1.07rem;
     margin: 11px 4px;
     line-height: 27px;
     height: 36px;
