@@ -16,14 +16,18 @@ body {
 /* Layout */
 .container-fluid {
     width: 100%;
-    padding: 0 var(--large-margin);
+    padding-left: var(--large-margin);
+    padding-right: var(--large-margin);
+    box-sizing: border-box;
 }
 
 .container {
     width: 100%;
     max-width: 584px;
-    padding: 0 var(--large-margin);
+    padding-left: var(--large-margin);
+    padding-right: var(--large-margin);
     margin: 0 auto;
+    box-sizing: border-box
 }
 
 /* Header */
