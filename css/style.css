@@ -176,3 +176,50 @@ header nav a:hover {
     background: linear-gradient(to bottom,  #f8f8f8 0%,#f1f1f1 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f8f8f8', endColorstr='#f1f1f1',GradientType=0 ); /* IE6-9 */
 }
+
+/* Footer */
+footer {
+    border-top: 1px solid #e4e4e4;
+    background-color: #f2f2f2;
+    font-size: 1.16rem;
+    line-height: 3.07;
+    width: 100%;
+    color: rgba(0,0,0,.54)
+}
+
+footer p {
+    margin: 0
+}
+
+footer > div {
+    padding-left: var(--large-margin);
+    padding-right: var(--large-margin);
+}
+
+.footer-top {
+    border-bottom: 1px solid #e4e4e4;
+}
+
+.footer-bottom {
+    display: flex;
+    justify-content: space-between;
+}
+
+footer nav a {
+    color: #5f6368;
+    font-size: 1.07rem;
+    margin-right: var(--large-margin);
+    text-decoration: none;
+}
+
+footer nav a:hover {
+    text-decoration: underline;
+}
+
+footer nav a:active {
+    color: #dd4b39
+}
+
+footer nav a:last-child {
+    margin-right: 0;
+}
