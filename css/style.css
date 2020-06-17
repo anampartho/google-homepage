@@ -84,3 +84,48 @@ header nav a:hover {
     background-size: 32px 32px;
     border-radius: 50%;
 }
+
+/* Googel Logo */
+.logo {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+/* Search Field */
+.search-field {
+    margin-bottom: 25px;
+    position: relative;
+}
+
+.search-field input {
+    width: 100%;
+    border-radius: 50px;
+    border: 1px solid #dfe1e5;
+    padding: 10px 45px;
+    height: 44px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+.search-field input:focus, .search-field input:hover {
+    box-shadow: 0 1px 6px 0 rgba(32,33,36,0.28);
+    outline: 0;
+    border-color: rgba(223,225,229,0)
+}
+
+.search-field svg {
+    position: absolute;
+    width: 25px;
+    top: 50%;
+    transform: translateY(-50%)
+}
+
+.search-field .search-icon {
+    width: 20px;
+    left: 15px;
+    opacity: .5;
+}
+
+.search-field .search-by-voice {
+    right: 15px;
+}
