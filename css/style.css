@@ -13,6 +13,19 @@ body {
     line-height: 1.85;
 }
 
+/* Layout */
+.container-fluid {
+    width: 100%;
+    padding: 0 var(--large-margin);
+}
+
+.container {
+    width: 100%;
+    max-width: 584px;
+    padding: 0 var(--large-margin);
+    margin: 0 auto;
+}
+
 /* Header */
 
 header {
